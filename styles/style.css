@@ -35,6 +35,7 @@ body {
   font-weight: 400;
 }
 .welcome_midNight {
+    margin-top: 30px;
     padding: 10px;
   display: flex;
   justify-content: space-around;
@@ -64,6 +65,7 @@ body {
 
 }
 .event_design{
+    border-radius: 10px;
     text-align: center;
     background-color: rgb(255, 235, 235);
     padding: 20px;
@@ -78,4 +80,22 @@ body {
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
+}
+.coming_soon_design{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.coming_soon_text{
+    color: #f00;
+}
+.coming_soon_img{
+    border: 4px solid #f00;
+    padding: 10px;
+    border-radius: 50%;
+}
+.coming_soon_year{
+    color: #f00;
 }
