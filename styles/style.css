@@ -14,9 +14,30 @@ body {
 .bannar_text {
   color: #fff;
   padding-top: 50px;
+
+  font-weight: 400;
 }
 .bannar_title {
   color: #fff;
-  padding-top: 20px;
-  padding-bottom: 80px;
+  font-size: 72px;
+  font-weight: 900;
+}
+.catagory_container {
+  text-align: center;
+}
+.catagory_Off {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+.catagory_text {
+  color: #f00;
+  font-weight: 400;
+}
+.welcome_midNight {
+  color: #fff;
+
+  font-size: 64px;
+
+  font-weight: 900;
 }
