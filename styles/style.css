@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 body header,main {
   margin: 20px;
 }
@@ -113,6 +116,12 @@ body header,main {
 .holiday_sell_text{
     color: #f00;
 }
+.the_best_gift_container{
+    margin-top: 50px;
+}
+.the_best_gift_text{
+    color: #f00;
+}
 .the_best_gift_images{
     display: flex;
     justify-content: space-between;
@@ -130,6 +139,7 @@ body header,main {
 }
 
 .subscribe_container{
+    margin-top: 100px;
     background-color: rgb(255, 235, 235);
     border-radius: 10px;
     padding: 10px;
@@ -144,19 +154,27 @@ body header,main {
     margin-left: -10px;
 }
 .footer_container{
-    background-color: #070211;;
+    background-color: #070211;
+    padding: 20px;
+
 }
 .footer_container_address{
     color: #fff;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .social_media_icon{
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 .footer_copy_right_design{
+    margin-top: 20px;
+    
     display: flex;
     justify-content: space-evenly;
     color: #fff;
