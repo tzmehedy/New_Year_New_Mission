@@ -35,9 +35,28 @@ body {
   font-weight: 400;
 }
 .welcome_midNight {
+    padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   color: #fff;
-
   font-size: 64px;
-
   font-weight: 900;
+  background-image: url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.welcome_midNight_image{
+    padding-top: 40px;
+    height: 300px;
+    
+}
+.welcome_midNight_text{
+    font-size: 20px;
+
+}
+.join_now_btn{
+    background-color: black;
+    color: white;
+
 }
