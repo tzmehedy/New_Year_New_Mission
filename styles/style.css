@@ -1,4 +1,4 @@
-body {
+body header,main {
   margin: 20px;
 }
 .banner {
@@ -119,6 +119,11 @@ body {
     margin: 10px;
 }
 
+.the_best_gift_images img:hover{
+    border: 2px solid gray;
+    border-radius: 17px;
+}
+
 .subscribe_container{
     text-align: center;
 
@@ -137,4 +142,22 @@ body {
     border-radius: 5px;
     padding: 3px;
     margin-left: -10px;
+}
+.footer_container{
+    background-color: #070211;;
+}
+.footer_container_address{
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social_media_icon{
+    display: flex;
+    justify-content: center;
+}
+.footer_copy_right_design{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
 }
