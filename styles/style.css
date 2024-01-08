@@ -99,3 +99,22 @@ body {
 .coming_soon_year{
     color: #f00;
 }
+.holiday_sell_container{
+    text-align: center;
+}
+.holiday_sell_container_images{
+    display: flex;
+}
+.holiday_sell_container_bottom_design{
+    
+    margin-top: -250px;
+
+}
+.holiday_sell_text{
+    color: #f00;
+}
+.the_best_gift_images{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
